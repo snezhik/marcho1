@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    h1 {
+        font-weight: bold;
+        margin-top: 10px padding 0;
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    h2 {
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    p {
+        font-size: 10px;
+        line-height: 11px;
+        margin: 0;
+        padding: 0;
+    }
+
+    b {
+        font-size: 10px;
+        line-height: 11px;
+        margin: 0;
+        padding: 0;
+    }
+
+    div {
+        font-size: 10px;
+        line-height: 11px;
+        margin-top: 15px;
+    }
+
+    ol li {
+        margin-left: 20px;
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    ul li {
+        margin-left: 20px;
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    table {
+        width: 100%;
+        border: none;
+    }
+
+    td {
+        padding: 3px;
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+    .text-left {
+        text-align: left;
+    }
+
+    .left_running_title {
+        width: 50%;
+        float: left;
+    }
+
+    .right_running_title {
+        width: 50%;
+        float: right;
+    }
+
+    .underlined {
+        border-bottom: 1px solid black;
+    }
+
+    .non-underlined {
+        display: inline-block;
+        margin-bottom: -1px;
+        border-bottom: 1px solid white;
+    }
+
+    .helper {
+        margin-top: 2px;
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .margin_top_5 {
+        margin-top: 5px;
+    }
+
+    .margin_top_10 {
+        margin-top: 10px;
+    }
+
+    .margin_top_15 {
+        margin-top: 15px;
+    }
+
+    .margin_top_20 {
+        margin-top: 20px;
+    }
+
+    .bordered {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+
+
+    .table_without_borders td {
+        border: none;
+        vertical-align: top;
+    }
+
+    .table_with_borders {
+        border: 1px solid black;
+    }
+
+    .table_with_borders td {
+        border: 1px solid black;
+    }
+
+    .select_box {
+        display: inline-block;
+        width: 10px;
+        border: 1px solid black;
+        line-height: 8px;
+    }
+</style>
+
+<body>
+
+    <table>
+
+        <tbody>
+            <tr>
+                <td style="width: 50%;">
+                    ____________________________ <br>
+                    наименование учреждения
+
+                </td>
+                <td style="text-align: right;">
+                    Код формы по ОКУД _______________
+                    <br>
+                    Код учреждения по ОКПО __________
+                    <br>
+                    Медицинская документация
+                    <br>
+                    форма № 003/у
+                    <br>
+                    Утверждена Минздравом СССР
+                    <br>
+                    04.10.80 г. № 1030
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <h1 class="margin_top_10 text-center">
+        МЕДИЦИНСКАЯ КАРТА № _____<br>
+        стационарного больного
+    </h1>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            Дата и время поступления
+        </span>
+    </p>
+
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            Дата и время выписки
+        </span>
+    </p>
+
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+
+    </p>
+
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            Отделение _______________________________________ палата №
+        </span>
+    </p>
+
+
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            Переведен в отделение
+        </span>
+    </p>
+
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            Проведено койко-дней
+        </span>
+    </p>
+
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            Виды транспортировки: на каталке, на кресле, может идти (подчеркнуть)
+        </span>
+    </p>
+
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            Группа крови _____________________ Резус-принадлежность
+        </span>
+    </p>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            Побочное действие лекарств (непереносимость)
+        </span>
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+
+    </p>
+    <p class="text-center">
+        название препарата, характер побочного действия
+
+    </p>
+
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+
+    </p>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            1. Фамилия, имя, отчество
+    </p>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            ________________________________________ 2. Пол
+    </p>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            3. Возраст ______ (полных лет, для детей: до 1 года - месяцев, до 1 месяца – дней)
+        </span>
+    </p>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            4. Постоянное место жительства: город, село (подчеркнуть)
+        </span>
+    </p>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+
+        </span>
+    </p>
+    <p class="text-center ">
+        вписать адрес, указав для приезжих - область, район,
+
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="text-center ">
+
+        населенный пункт, адрес родственников и № телефона
+    </p>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            5. Место работы, профессия или должность
+        </span>
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="text-center ">
+        для учащихся - место учебы; для детей - название детского учреждения, школы;
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="text-center ">
+        для инвалидов - род и группа инвалидности, иов – да, нет подчеркнуть
+    </p>
+
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            6. Кем направлен больной
+        </span>
+    </p>
+    <p class="text-center ">
+        название лечебного учреждения
+    </p>
+    <p>
+        4. Постоянное место жительства: город, село (подчеркнуть)
+    </p>
+    <p>
+        через _________ часов после начала заболевания, получения травмы;
+    </p>
+    <p>
+        госпитализирован в плановом порядке (подчеркнуть).
+    </p>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            8. Диагноз направившего учреждения
+        </span>
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            9. Диагноз при поступлении
+        </span>
+    </p>
+    <table>
+        <tbody>
+            <tr>
+                <td style="width: 50%;">
+                    Диагноз клинический<br>
+                    _______________________________________ <br>
+                    _______________________________________ <br>
+                    _______________________________________ <br>
+                    _______________________________________ <br>
+
+
+                </td>
+                <td class="text-right">
+                    Дата установления<br>
+                    _______________________________ <br>
+                    _______________________________ <br>
+                    _______________________________ <br>
+                    _______________________________<br>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="text-right">
+        Стр. 2 ф. № 003/у
+    </p>
+    <p>
+        11. Диагноз заключительный клинический
+    </p>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            а) основной:
+        </span>
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            б) осложнение основного:
+        </span>
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            в) сопутствующий
+        </span>
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p>
+        12. Госпитализирован в данном году по поводу данного заболевания: впервые, повторно (подчеркнуть), всего - _____
+        раз.
+
+    </p>
+    <p>
+        13. Хирургические операции, методы обезболивания и послеоперационные осложнения.
+    </p>
+    <table class="margin_top_10 table_with_borders">
+        <tbody>
+            <tr>
+                <td class="text-align center" width="15%">
+                    Название операции
+                </td>
+                <td class="text-align center" width="10%">
+                    Дата, час
+                </td>
+                <td class="text-align center" width="25%">
+                    Метод обезболивания
+                </td>
+                <td class="text-align center" width="25%">
+                    Осложнения
+                </td>
+            </tr>
+            <tr>
+                <td class="text-align center" width="15%">
+                    1.
+                </td>
+                <td class="text-align center" width="10%">
+
+                </td>
+                <td class="text-align center" width="25%">
+
+                </td>
+                <td class="text-align center" width="25%">
+                </td>
+            </tr>
+            <tr>
+                <td class="text-align center" width="15%">
+                    2.
+                </td>
+                <td class="text-align center" width="10%">
+
+                </td>
+                <td class="text-align center" width="25%">
+
+                </td>
+                <td class="text-align center" width="25%">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="text-align center" width="15%">
+                    3.
+                </td>
+                <td class="text-align center" width="10%">
+
+                </td>
+                <td class="text-align center" width="25%">
+
+                </td>
+                <td class="text-align center" width="25%">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="text-align center" width="15%">
+
+                </td>
+                <td class="text-align center" width="10%">
+
+                </td>
+                <td class="text-align center" width="25%">
+                    Оперировал
+                </td>
+                <td class="text-align center" width="25%">
+            </tr>
+            <tr style="height: 15px;">
+                <td style="border: none;" class="text-align center " width="15%">
+
+                </td>
+                <td style="border: none;" class="text-align center" width="10%">
+
+                </td>
+                <td class="text-align center" width="25%">
+
+                </td>
+                <td class="text-align center" width="25%">
+            </tr>
+
+        </tbody>
+    </table>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            14. Другие виды лечения
+        </span>
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="text-center ">
+        (указать)
+    </p>
+    <b>
+        для больных злокачественными новообразованиями.
+    </b>
+    <p>
+        1. Специальное лечение: хирургическое (дистанционная гамматерапия, рентгенотерапия, быстрые электроны,
+        контактная и дистанционная гамматерапия, контактная гамматерапия и глубокая рентгенотерапия); комбинированное
+        (хирургическое и гамматерапия, хирургическое и рентгенотерапия, хирургическое и сочетанное лучевое);
+        химиопрепаратами, гормональными препаратами.
+    </p>
+    <p>
+        2. Паллиативное.
+    </p>
+    <p>
+        2. Паллиативное.
+    </p>
+    <p>
+        15. Отметка о выдаче листка нетрудоспособности
+    </p>
+    <p>
+        № _______ с _______ по ______ № _______ с ________ по ________
+    </p>
+    <p>
+        № _______ с _______ по ______ № _______ с ________ по ________
+    </p>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            16. Исход заболевания: выписан - с выздоровлением, с улучшением, без перемен, с ухудшением; переведен в
+            другое учреждение
+        </span>
+    </p>
+    <p class="text-center ">
+        название лечебного учреждения
+    </p>
+    <p>Умер в приемном отделении, умерла беременная до 28 недель беременности, умерла после 28 недель беременности,
+        роженица, родильница</p>
+    <p>
+
+        17. Трудоспособность восстановлена полностью, снижена, временно утрачена, стойко утрачена в связи с данным
+        заболеванием, с другими причинами (подчеркнуть)
+
+    </p>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            18. Для поступивших на экспертизу-заключение
+        </span>
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="margin_top_10 underlined">
+        <span class="non-underlined">
+            18. Для поступивших на экспертизу-заключение
+        </span>
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <p class="margin_top_10 underlined" style="margin-top: 20px;">
+    </p>
+    <table>
+        <tbody>
+            <tr>
+                <td style="width: 50%;">
+                    Лечащий врач <br>
+                    ___________________________<br>
+                    подпись <br>
+                </td>
+                <td style="text-align: right;">
+                    Зав. отделением <br>
+                    ___________________________<br>
+                    подпись <br>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+
+
+</html>
